@@ -48,15 +48,11 @@ body {
     margin-bottom: 25px;
 }
 
-
-
 /*Buttons*/
-
 
 /*Features section*/
 
 /* Content Containers */
-
 
 /* Container Wrappers */
 
@@ -95,8 +91,7 @@ body {
     margin: 0;
 }
 
-.footer-right,
-.footer-left {
+.footer-right, .footer-left {
     text-align: center;
 }
 
@@ -118,6 +113,7 @@ body {
 
 .noble-pie-map {
     padding: 15px 10px;
+    margin: 0 auto;
 }
 
 .open-hours {
