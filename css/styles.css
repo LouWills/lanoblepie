@@ -83,6 +83,10 @@ body {
     font-weight: bold;
 }
 
+.dropdown-item {
+    color: #111613;
+}
+
 /*------------------------------------------Footer*/
 
 .noble-footer {
