@@ -71,6 +71,10 @@ body {
     background-color: #111613;
 }
 
+.page-heading {
+    font-family: 'Montez', sans-serif;
+}
+
 .navbar-toggler {
     border: 0;
 }
@@ -90,7 +94,8 @@ body {
 /*------------------------------------------Language Options modal*/
 
 .lang-img {
-    width: 50px;
+    width: 45px;
+    margin-left: 5px;
 }
 
 .modal-header {
@@ -112,6 +117,11 @@ body {
 
 .mobile-lang-img {
     width: 30px;
+}
+
+.modal-language-img {
+    width: 25px;
+    margin-right: 6px;
 }
 
 /*------------------------------------------Footer*/
@@ -140,6 +150,7 @@ body {
     color: #fafafa;
     text-align: center;
     padding-bottom: 15px;
+    text-decoration: none;
 }
 
 .noble-pie-map {

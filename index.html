@@ -10,6 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montez|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>La Noble Pie</title>
 </head>
@@ -20,7 +21,9 @@
     <!-- Navigation bar-->
 
     <nav class="navbar navbar-dark navbar-expand-sm">
-        <a href="/home" class="navbar-brand">La Noble Pie</a>
+        <a href="/home" class="navbar-brand">
+            <h2 class="page-heading">La Noble Pie</h2>
+        </a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +46,8 @@
 
                     </div>
                 </li>
-                <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/french"><img src="assets/images/fr.png" class="mobile-lang-img"></a></li>
+                <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/french"><img
+                            src="assets/images/fr.png" class="mobile-lang-img"></a></li>
             </ul>
         </div>
         <div class="d-none d-md-block">
@@ -62,6 +66,7 @@
 
     </div>
 
+    <!--Footer-->
     <footer class="container-fluid noble-footer fixed-bottom">
         <div id="footer-details" class="row">
             <div class="col-lg-6 col-md-12 footer-left">
@@ -100,12 +105,11 @@
                 </table>
 
                 <h5 class="general-sub">Address:</h5>
-                <p class="inline-block general-text">8 Rue de la Pelisserie, 82140 Saint-Antonin-Noble-Val, France</p>
-
-                <!--<p class="inline-block general-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui et,
-                    repellendus
-                    placeat laborum iure nulla hic non. Repudiandae commodi harum velit ducimus error a inventore. Eius
-                    consectetur laborum esse minima.</p>-->
+                <a class="noble-address"
+                    href="https://www.google.com/maps/place/8+Rue+de+la+Pelisserie,+82140+Saint-Antonin-Noble-Val/data=!4m2!3m1!1s0x12ac4bfc4ec18129:0x8c07dfa47458508d?sa=X&ved=2ahUKEwiUzY6ZhMvjAhUPExQKHVf2A2gQ8gEwAHoECAoQAQ">
+                    <p class="inline-block general-text">8
+                        Rue de la Pelisserie, 82140 Saint-Antonin-Noble-Val, France</p>
+                </a>
             </div>
             <div class="col-lg-6 col-md-12 footer-right">
                 <h5 class="general-sub d-none d-md-block">Find us</h5>
@@ -115,6 +119,7 @@
             </div>
         </div>
     </footer>
+    <!--/.Footer-->
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -122,17 +127,11 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Language / La langue</h5>
-                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>-->
+                    <h5 class="modal-title" id="exampleModalLabel">Language</h5>
                 </div>
-                <!--<div class="modal-body">
-                    ...
-                </div>-->
                 <div class="modal-footer lang-options">
-                    <button type="button" class="btn btn-secondary lang-btn"><a href="index.html">English</a></button>
-                    <button type="button" class="btn btn-secondary lang-btn"><a href="index.html">Français</a></button>
+                    <button type="button" class="btn btn-secondary lang-btn"><a href="index.html"><img src="assets/images/uk.png" class="modal-language-img">English</a></button>
+                    <button type="button" class="btn btn-secondary lang-btn"><a href="index.html"><img src="assets/images/fr.png" class="modal-language-img">Français</a></button>
                 </div>
             </div>
         </div>
