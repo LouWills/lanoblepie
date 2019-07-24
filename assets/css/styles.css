@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fafafa;
+    background-color: white;
 }
 
 .col-12 {
@@ -32,7 +32,7 @@ body {
     background-color: #f05f40;
 }
 
-.block-divider--orange {
+.block-divider--red {
     background-color: #f05f40;
 }
 
@@ -83,9 +83,9 @@ body {
     color: #111613;
 }
 
-/*------------------------------------------Shop Content*/
+/*------------------------------------------Containers*/
 
-.shop-container {
+.landing-container {
     height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -97,22 +97,21 @@ body {
     position: relative;
 }
 
-.opaque-overlay {
+.about-container {
+    min-height: 400px;
+    background-color: #E80F44;
+}
+/*.opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.65);
-}
+}*/
 
 
 /*------------------------------------------Jumbotron*/
-
-.jumbotron {
-    background-color: transparent;
-    border-radius: 13px;
-}
 
 .jumbotron-header {
     color: #111613;
@@ -122,13 +121,7 @@ body {
 
 .jumbotron .lead {
     margin: 25px 0;
-    color: #a7a7a7;
-}
-
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
+    /*color: #a7a7a7;*/
 }
 
 .btn--cta {
@@ -138,13 +131,14 @@ body {
 }
 
 .btn {
-    background-color: #405742;
+    background-color: #E80F44;
 }
 .menu-btn {
     display: block;
     margin: 0 auto;
     text-decoration: none;
     color: #fafafa;
+    margin-top: 30px;
 }
 
 .menu-btn a {
@@ -163,9 +157,13 @@ body {
 
 /* Container Wrappers */
 
-.content-section {
-    background-color: #fafafa;
+.landing-section {
+    background-color: white;
     min-height: 120px;
+}
+
+.logo-img {
+    margin-left: 30px;
 }
 
 
@@ -200,6 +198,24 @@ body {
 .modal-language-img {
     width: 25px;
     margin-right: 6px;
+}
+
+/*------------------------------------------Text*/
+
+.about-header {
+    color: #fafafa;
+    display: block;
+    text-align: center;
+    margin: 20px 0 16px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-text {
+    color: #fafafa;
+    padding: 0 40px;
+    margin: 30px 0;
+    font-size: 18px;
 }
 
 /*------------------------------------------Footer*/
