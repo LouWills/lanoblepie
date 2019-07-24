@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
 }
 
 .col-12 {
@@ -86,7 +87,6 @@ body {
 
 .shop-container {
     height: 100vh;
-    background: url("../images/botanical-background.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -111,10 +111,11 @@ body {
 
 .jumbotron {
     background-color: transparent;
+    border-radius: 13px;
 }
 
 .jumbotron-header {
-    color: #fafafa;
+    color: #111613;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -132,8 +133,8 @@ body {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 25px;
-    width: 160px;
+    border-radius: 13px;
+    width: 200px;
 }
 
 .btn {
@@ -148,6 +149,12 @@ body {
 
 .menu-btn a {
     color: #fafafa;
+}
+
+.socials i {
+    font-size: 40px;
+    color: #fafafa;
+    margin-left: 10px;
 }
 
 /*Features section*/
