@@ -8,6 +8,10 @@ body {
     padding-right: 0;
 }
 
+.col-lg-5 {
+    padding-bottom: 20px;
+}
+
 /*Block Dividers */
 
 .block-divider {
@@ -195,6 +199,10 @@ body {
 .modal-language-img {
     width: 25px;
     margin-right: 6px;
+}
+
+.stanto-img {
+    margin-top: 30px;
 }
 
 /*------------------------------------------Text*/
