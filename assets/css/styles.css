@@ -8,21 +8,6 @@ body {
     padding-right: 0;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/*.quotes-container {}
-
-.features-container {}
-
-.favourites-container {}*/
-
 /*Block Dividers */
 
 .block-divider {
@@ -47,6 +32,11 @@ body {
 .block-divider--short {
     width: 35px;
     margin-bottom: 25px;
+}
+
+.b-divider-margin {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /*------------------------------------------Nav Bar*/
@@ -106,15 +96,18 @@ body {
     min-height: 400px;
     background-color: white;
 }
-/*.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
-}*/
 
+.menu-container {
+    min-height: 400px;
+    position: relative;
+    background-color: white;
+}
+
+.contact-container {
+    min-height: 400px;
+    position: relative;
+    background-color: white;
+}
 
 /*------------------------------------------Jumbotron*/
 
@@ -138,6 +131,7 @@ body {
 .btn {
     background-color: #E80F44;
 }
+
 .menu-btn {
     display: block;
     margin: 0 auto;
@@ -150,17 +144,11 @@ body {
     color: #fafafa;
 }
 
-.socials i {
-    font-size: 40px;
-    color: #fafafa;
-    margin-left: 10px;
+.submit-btn {
+    margin-bottom: 40px;
 }
 
-/*Features section*/
-
-/* Content Containers */
-
-/* Container Wrappers */
+/*------------------------------------------Sections*/
 
 .landing-section {
     background-color: white;
@@ -171,6 +159,10 @@ body {
     margin-left: 30px;
 }
 
+.form-section {
+    min-height: 600px;
+    background-color: white;
+}
 
 /*------------------------------------------Language Options modal*/
 
@@ -239,10 +231,37 @@ body {
     font-size: 18px;
 }
 
+.contact-header {
+    color: #111613;
+    display: block;
+    text-align: center;
+    margin: 40px 0 16px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-headers {
+    font-size: 16px;
+}
+
+/*------------------------------------------Misc*/
+
+.socials {
+    text-align: center;
+}
+
+.socials i {
+    color: #111613;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 /*------------------------------------------Footer*/
 
 .noble-footer {
-    background-color: #111613;;
+    background-color: #111613;
+    ;
     min-height: 150px;
     margin: 0;
 }
