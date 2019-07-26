@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montez|Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6b5936d46d.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>La Noble Pie</title>
+    <title>La Noble Pie | Menu</title>
 </head>
 
 
@@ -21,7 +21,7 @@
 <body>
     <!-- Navigation bar-->
 
-    <nav class="navbar navbar-dark navbar-expand-sm">
+    <nav class="navbar navbar-dark navbar-expand-sm" id="top-of-page">
         <a href="/home" class="navbar-brand">
             <h2 class="page-heading">La Noble Pie</h2>
         </a>
@@ -33,20 +33,8 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto nav-list-1">
                 <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Menu
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Breakfast</a>
-                        <a class="dropdown-item" href="#">Lunchtime</a>
-                        <a class="dropdown-item" href="#">Evening</a>
-                        <a class="dropdown-item" href="#">Desert and Drinks</a>
-
-                    </div>
-                </li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                 <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/french"><img
                             src="assets/images/fr.png" class="mobile-lang-img"></a></li>
             </ul>
@@ -60,16 +48,298 @@
 
     <!-- /.Navigation bar-->
 
-    <!--Menu Section-->
-    <div class="container-fluid menu-container">
+    <!--Menu navigation-->
+    <div class="container-fluid menu-type-container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="menu-header text-center">Menu</h1>
+                <hr class="block-divider block-divider--black">
+            </div>
+        </div>
+        <div class="menu-type">
+            <div class="row justify-content-center">
+                <div class="col-lg-2">
 
+                    <a href="#breakfast" class="btn btn-lg btn--cta menu-type-btn" role="button"
+                        aria-pressed="true">Breakfast</a>
 
+                </div>
+                <div class="col-lg-2">
+                    <a href="#lunch" class="btn btn-lg btn--cta menu-type-btn" role="button"
+                        aria-pressed="true">Lunch</a>
+                </div>
+                <!--</div>-->
+                <!--<div class="row justify-content-center">-->
+                <div class="col-lg-2">
+                    <a href="#evening" class="btn btn-lg btn--cta menu-type-btn" role="button"
+                        aria-pressed="true">Evening</a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#drinks" class="btn btn-lg btn--cta menu-type-btn" role="button" aria-pressed="true">Drinks
+                        / Desserts</a>
+                </div>
+                <!--</div>-->
+            </div>
+
+        </div>
+        <!--/.Menu navigation-->
+
+        <!--Menu's-->
+        <div class="container-fluid menu-container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="menu-type-headers" id="breakfast">Breakfast</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Breakfast item 1</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Breakfast item 2</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Breakfast item 3</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Breakfast item 4</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="menu-type-headers" id="lunch">Lunch</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Lunch item 1</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Lunch item 2</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Lunch item 3</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Lunch item 4</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="menu-type-headers" id="evening">Evening</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Evening item 1</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Evening item 2</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Evening item 3</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Evening item 4</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="menu-type-headers" id="drinks">Drinks / Desserts</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Drink item 1</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Drink item 2</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Dessert item 1</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3 class="item-header">Dessert item 2</h3>
+                            <hr class="block-divider block-divider--short block-divider--black">
+                            <p class="item-desc">Short item description about the menu item.</p>
+                        </div>
+                        <div class="price-box">
+                            <h3 class="price">£10</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a href="#top-of-page" class="btn btn-lg btn--cta menu-type-btn back-to-top" role="button"
+                        aria-pressed="true">Back to top</a>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
-
-    <!--/.Menu Section-->
+    <!--/.Menu's-->
 
     <!--Footer-->
     <footer class="container-fluid noble-footer">

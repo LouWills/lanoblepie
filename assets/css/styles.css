@@ -12,6 +12,10 @@ body {
     padding-bottom: 20px;
 }
 
+.col-lg-2 {
+    padding: 0;
+}
+
 /*Block Dividers */
 
 .block-divider {
@@ -35,7 +39,8 @@ body {
 
 .block-divider--short {
     width: 35px;
-    margin-bottom: 25px;
+    margin: 0.5rem 0;
+    width: 75px;
 }
 
 .b-divider-margin {
@@ -101,9 +106,8 @@ body {
     background-color: white;
 }
 
-.menu-container {
-    min-height: 400px;
-    position: relative;
+.menu-type-container {
+    
     background-color: white;
 }
 
@@ -144,12 +148,25 @@ body {
     margin-top: 30px;
 }
 
+.menu-type-btn {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fafafa;
+    margin-top: 30px;
+    width: 200px;
+}
+
 .menu-btn a {
     color: #fafafa;
 }
 
 .submit-btn {
     margin-bottom: 40px;
+}
+
+.back-to-top {
+    margin-bottom: 50px;
 }
 
 /*------------------------------------------Sections*/
@@ -252,6 +269,48 @@ body {
     font-size: 16px;
 }
 
+.menu-header {
+    text-transform: uppercase;
+    color: #111613;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.menu-type-headers {
+    text-transform: uppercase;
+    color: #111613;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*------------------------------------------Menu Page*/
+
+.menu-item {
+    border: 2px solid #111613;
+    min-height: 50px;
+    margin: 20px 0;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+}
+
+.menu-type {
+    width: 100%;
+}
+
+.item-info {
+    width: 75%;
+    display: inline-block;
+}
+
+.price-box {
+    width: 20%;
+    height: auto;
+    float: right;
+    text-align: right;
+}
+
 /*------------------------------------------Misc*/
 
 .socials {
@@ -261,8 +320,7 @@ body {
 .socials i {
     color: #111613;
     font-size: 40px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 0px 5px 10px 5px;
 }
 
 /*------------------------------------------Footer*/
