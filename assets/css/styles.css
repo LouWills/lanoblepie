@@ -1,3 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
@@ -162,6 +172,7 @@ body {
 
 .submit-btn {
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .back-to-top {
@@ -336,6 +347,10 @@ body {
     padding-top: 25px;
 }
 
+.footer-center, .footer-left, .footer-right {
+    padding-bottom: 25px;
+}
+
 .footer-left {
     padding-left: 25px;
 }
@@ -419,5 +434,11 @@ body {
         text-align: center;
     }
 
+    .footer-center i {
+        display: block;
+        margin: 0 auto;
+    }
+
 
 }
+
