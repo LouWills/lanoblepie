@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <link href="https://fonts.googleapis.com/css?family=Montez|Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6b5936d46d.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -33,7 +33,9 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto nav-list-1">
                 <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+
                 <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+
                 <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                 <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/french"><img
                             src="assets/images/fr.png" class="mobile-lang-img"></a></li>
@@ -41,7 +43,7 @@
         </div>
         <div class="d-none d-md-block">
 
-            <a href="/uk" class="" data-toggle="modal" data-target="#exampleModal"><img class="lang-img"
+            <a href="/login" class="" data-toggle="modal" data-target="#exampleModal"><img class="lang-img"
                     src="assets/images/uk.png" alt="Union Jack Flag"></a>
         </div>
     </nav>
@@ -52,15 +54,19 @@
     <div class="container-fluid landing-container">
         <div class="row landing-section">
             <div class="col-12">
+                <img src="assets/images/french-border-style.png" alt="Border style"
+                    class="french-border d-none d-md-block">
                 <section class="callout text-center">
                     <img src="assets/images/noblepie.jpg" alt="La Noble Pie Logo" class="logo-img">
-                    <h1 class="jumbotron-header d-none d-md-block">La Noble Pie | St Antonin Noble-Val</h1>
+                    <h1 class="jumbotron-header d-none d-md-block">La Noble Pie</h1>
+                    <h2 class="jumbotron-subheader d-none d-md-block">St Antonin Noble-Val</h2>
                     <hr class="block-divider block-divider--black">
                     <a href="contact.html" class="btn btn-lg btn--cta menu-btn" role="button" aria-pressed="true">Browse
                         our
                         Menu</a>
+                </section>
             </div>
-            </section>
+
         </div>
 
     </div>
@@ -74,25 +80,31 @@
                 <h2 class="about-header text-center">About us</h2>
                 <hr class="block-divider block-divider--white">
             </div>
-            <div class="row about-content">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam blanditiis et
-                        quidem
-                        hic? Laboriosam, quae, error ratione quam id sed, ex dicta est tenetur rerum maxime? Neque
-                        soluta natus
-                        eligendi. </p>
+            <div class="row about-content no-gutters">
+                <div class="col-lg-2"></div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="personal-info justify-content-center">
+                        <div class="img__wrap">
+                            <img class="img__img" src="http://placehold.it/257x300.jpg" />
+                            <p class="img__description">Orginally from the United Kingdom, Tasha
+                                moved to Australia to begin her culinary career.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-5">
-                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam blanditiis et
-                        quidem
-                        hic? Laboriosam, quae, error ratione quam id sed, ex dicta est tenetur rerum maxime? Neque
-                        soluta natus
-                        eligendi. </p>
+                <div class="col-md-12 col-lg-4">
+                    <div class="personal-info justify-content-center">
+                        <div class="img__wrap">
+                            <img class="img__img" src="http://placehold.it/257x300.jpg" />
+                            <p class="img__description">This image looks super neat.</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
+
     <!--/.About Section-->
 
     <!-- Where we are section-->
@@ -103,13 +115,16 @@
             <div class="row where-content">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5">
-                    <!--Image from https://www.tripadvisor.co.za/LocationPhotoDirectLink-g1198562-i268831039-Saint_Antonin_Noble_Val_Tarn_et_Garonne_Occitanie.html-->
-                    <img src="assets/images/st-antonin.jpg" alt="St Antonin Noble-Val" class="stanto-img">
-                    <p class="muted">St Antonin Noble-Val</p>
+                    <p class="where-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        tempora libero saepe
+                        magni beatae suscipit soluta quasi et expedita ratione facilis quis earum, cupiditate esse
+                        blanditiis perferendis autem iure quia.</p>
                 </div>
                 <div class="col-lg-5">
-                    <p class="where-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, assumenda
-                        dolor? Cupiditate tempore sapiente ex voluptatibus dignissimos rem nam eos perspiciatis pariatur
+                    <p class="where-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia,
+                        assumenda
+                        dolor? Cupiditate tempore sapiente ex voluptatibus dignissimos rem nam eos perspiciatis
+                        pariatur
                         veniam eum, libero nulla nobis ipsa laudantium consectetur.</p>
                 </div>
             </div>
@@ -134,7 +149,8 @@
             <div class="col-lg-4 col-md-12 footer-center">
                 <div>
                     <i class="fa fa-map-marker"></i>
-                    <p><a href="#" target="_blank">8
+                    <p><a href="https://www.google.com/maps/place/8+Rue+de+la+Pelisserie,+82140+Saint-Antonin-Noble-Val/@44.1522695,1.7545256,17z/data=!3m1!4b1!4m5!3m4!1s0x12ac4bfc4ec18129:0x8c07dfa47458508d!8m2!3d44.1522695!4d1.7567143"
+                            target="_blank">8
                             Rue de la Pelisserie, 82140 Saint-Antonin-Noble-Val, France</a></p>
                 </div>
 
@@ -172,14 +188,14 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
