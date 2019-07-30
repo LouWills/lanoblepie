@@ -66,7 +66,6 @@ body {
   border: 0;
   width: 100%;
   background-color: #111613;
-  margin: 0 auto;
 }
 
 .page-heading {
@@ -95,6 +94,10 @@ body {
 
 #navbarNavDropdown {
   font-size: 24px;
+}
+
+.nav-list-1 {
+  text-align: center;
 }
 
 /*------------------------------------------Containers*/
@@ -315,7 +318,7 @@ body {
   color: #fafafa;
 }
 
-.drinks-header  {
+.drinks-header {
   text-align: center;
 }
 
@@ -444,7 +447,7 @@ body {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  background: #f1f1f1f1;
+  background: #fff;
 }
 
 /* Slides */
@@ -501,12 +504,6 @@ body {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active,
-.dot:hover {
-  background-color: #717171;
 }
 
 /* Add an italic font style to all quotes */
@@ -641,9 +638,6 @@ q {
 
 @media (min-width: 768px) {
 
-  .navbar-nav {
-    margin: 0 auto;
-  }
 
   .nav-item {
     margin-left: 10px;
