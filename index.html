@@ -49,16 +49,42 @@
     <div class="container-fluid menu-box-container" id="menuDropdown">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h1 class="menu-box-header">Test</h1>
-                <p class="menu-box-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem non
-                    odit a odio et necessitatibus placeat minima? Ipsam eius alias dicta id consequuntur ab itaque
-                    adipisci placeat, enim, voluptas odio!</p>
+                <h1 class="menu-box-header">Menu</h1>
+                <hr class="block-divider block-divider--white menu-box-divider">
+            </div>
+
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <h2 class="menu-box-header">Curry night</h2>
+                <hr class="block-divider block-divider--white menu-box-divider">
+                <p class="menu-box-text">Every evening, Monday - Thursday we serve a selection of curries.
+                    The menu changes on a weekly basis so be sure to follow us on social media to get weekly menu
+                    updates.
+
+                </p>
+
+            </div>
+            <div class="col-md-3">
+                <h2 class="menu-box-header">Saturday all day breakfast</h2>
+                <hr class="block-divider block-divider--white menu-box-divider">
+                <p class="menu-box-text">Our breakfast menu is served all day on Saturday's.</p>
+                <br>
+                <h2 class="menu-box-header">Sunday Market</h2>
+                <hr class="block-divider block-divider--white menu-box-divider">
+                <p class="menu-box-text">On Sunday's our menu changes.<br>We serve a selection of traditional pies. Our
+                    sunday menu can be found here.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12">
                 <a href="menu.html" class="btn btn-lg btn--cta menu-btn" role="button" aria-pressed="true">Browse
                     full
                     Menu</a>
             </div>
-
         </div>
+
+
     </div>
 
     <!--/.Menu nav box-->
@@ -106,18 +132,18 @@
                 </div>
                 <div class="col-md-6 col-lg-5">
                     <h3 class="info-header">Address</h3>
-                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam blanditiis et
-                        quidem
-                        hic? Laboriosam, quae, error ratione quam id sed, ex dicta est tenetur rerum maxime? Neque
-                        soluta natus
-                        eligendi. </p>
+                    <p class="about-text"><b>La Noble Pie</b><br>8
+                        Rue de la Pelisserie<br>Saint-Antonin-Noble-Val<br>82140<br>France</p>
                     <h3 class="info-header">Hours</h3>
-                    <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, adipisci
-                        veritatis, atque deleniti
-                        numquam facere deserunt cum quas consequuntur, dicta voluptate necessitatibus. Temporibus
-                        tenetur itaque eligendi deserunt voluptas molestias repudiandae!</p>
-                    <button type="submit" class="btn-find btn-lg btn--cta menu-btn submit-btn" data-toggle="modal"
-                        data-target="#exampleModal">Find us</button>
+                    <p class="about-text">
+                        <b>Monday - Thursday:</b> 10:00 - 15:00, 18:00 - 21:00<br>
+                        <b>Friday:</b> Closed<br>
+                        <b>Saturday:</b> 10:00 - 15:00<br>
+                        <b>Sunday:</b> 09:00 - 13:00<br>
+
+                    </p>
+                    <button type="submit" class="btn-find btn-lg btn--cta menu-btn submit-btn d-none d-lg-block"
+                        data-toggle="modal" data-target="#exampleModal">Find us</button>
 
                 </div>
             </div>
@@ -247,7 +273,7 @@
     <script>
         $(document).ready(function () {
             $("#menu-link").click(function () {
-                $("#menuDropdown").slideToggle(300);
+                $("#menuDropdown").slideToggle(400);
 
 
 
