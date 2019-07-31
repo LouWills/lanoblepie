@@ -33,16 +33,35 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto nav-list-1">
                 <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="our-story.html">Our story</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#" id="menu-link">Menu</a>
+                </li>
                 <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                
+
             </ul>
         </div>
-        
+
     </nav>
 
     <!-- /.Navigation bar-->
+
+    <!--Menu nav box-->
+    <div class="container-fluid menu-box-container" id="menuDropdown">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="menu-box-header">Test</h1>
+                <p class="menu-box-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem non
+                    odit a odio et necessitatibus placeat minima? Ipsam eius alias dicta id consequuntur ab itaque
+                    adipisci placeat, enim, voluptas odio!</p>
+                    <a href="menu.html" class="btn btn-lg btn--cta menu-btn" role="button" aria-pressed="true">Browse
+                            full
+                            Menu</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--/.Menu nav box-->
 
     <!--Contact Section-->
     <div class="container-fluid contact-container">
@@ -147,7 +166,8 @@
                     Thank you for your message. We will get in touch as soon as possible!
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-lg btn--cta btn-modal-close" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-lg btn--cta btn-modal-close"
+                        data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -162,6 +182,18 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#menu-link").click(function () {
+                $("#menuDropdown").slideToggle(300);
+
+
+
+            });
+
+        });
     </script>
 </body>
 

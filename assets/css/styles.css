@@ -146,7 +146,8 @@ body {
   display: none;
 }
 
-.menu-box-header, .menu-box-text {
+.menu-box-header,
+.menu-box-text {
   color: #fafafa;
 }
 
@@ -199,6 +200,14 @@ body {
 
 .btn {
   background-color: #e80f44;
+}
+
+.btn-find {
+  background-color: #111613;
+}
+
+.btn-find:hover {
+  background-color: #292929;
 }
 
 .menu-btn {
@@ -260,6 +269,16 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+
+.modal-dialog {
+  max-width: 700px;
+}
+
+.modal-body {
+  margin: 0 auto;
+}
+
+
 
 /*------------------------------------------Text*/
 
@@ -337,6 +356,13 @@ body {
 
 .drinks-header {
   text-align: center;
+}
+
+.info-header {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /*------------------------------------------Menu Page*/
