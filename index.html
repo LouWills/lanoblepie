@@ -33,15 +33,32 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto nav-list-1">
                 <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#" id="menu-link">Menu</a>
+                </li>
                 <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                
+
             </ul>
         </div>
-        
+
     </nav>
 
     <!-- /.Navigation bar-->
+
+    <!--Menu nav box-->
+    <div class="container-fluid menu-box-container" id="menuDropdown">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="menu-box-header">Test</h1>
+                <p class="menu-box-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem non
+                    odit a odio et necessitatibus placeat minima? Ipsam eius alias dicta id consequuntur ab itaque
+                    adipisci placeat, enim, voluptas odio!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--/.Menu nav box-->
 
     <!--Landing content-->
     <div class="container-fluid landing-container">
@@ -66,18 +83,35 @@
     </div>
     <!--/.Landing content-->
 
-   <!--About Section-->
-   <div class="container-fluid about-container">
-    <div class="row about-section">
-        <div class="col-12">
-            <h2 class="about-header text-center">About us</h2>
-            <hr class="block-divider block-divider--white">
-        </div>
-      
-    </div>
-</div>
 
-<!--/.About Section-->
+
+    <!-- Where we are section-->
+    <div class="container-fluid where-container">
+        <div class="row where-section">
+            <div class="col-12">
+                <h2 class="about-header text-center">Where we are</h2>
+                <hr class="block-divider block-divider--white">
+            </div>
+            <div class="row where-content justify-content-center">
+                <!--<div class="col-lg-1"></div>-->
+                <div class="col-lg-5">
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam blanditiis et
+                        quidem
+                        hic? Laboriosam, quae, error ratione quam id sed, ex dicta est tenetur rerum maxime? Neque
+                        soluta natus
+                        eligendi. </p>
+                </div>
+                <div class="col-lg-5">
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam blanditiis et
+                        quidem
+                        hic? Laboriosam, quae, error ratione quam id sed, ex dicta est tenetur rerum maxime? Neque
+                        soluta natus
+                        eligendi. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.Where we are section-->
 
     <!--Testimonal Slider-->
 
@@ -126,33 +160,6 @@
 
     <!--/.Testimonial Slider-->
 
-
-    <!-- Where we are section-->
-    <div class="container-fluid where-container">
-        <section class="where-section">
-            <h2 class="where-header text-center">Where we are</h2>
-            <hr class="block-divider block-divider--black">
-            <div class="row where-content">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <p class="where-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                        tempora libero saepe
-                        magni beatae suscipit soluta quasi et expedita ratione facilis quis earum, cupiditate esse
-                        blanditiis perferendis autem iure quia.</p>
-                </div>
-                <div class="col-lg-5">
-                    <p class="where-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia,
-                        assumenda
-                        dolor? Cupiditate tempore sapiente ex voluptatibus dignissimos rem nam eos perspiciatis
-                        pariatur
-                        veniam eum, libero nulla nobis ipsa laudantium consectetur.</p>
-                </div>
-            </div>
-        </section>
-
-    </div>
-    <!--/.Where we are section-->
-
     <!--Footer-->
     <footer class="container-fluid noble-footer">
         <div id="footer-details" class="row footer-items">
@@ -160,6 +167,8 @@
                 <h3 class="page-heading footer-company-name">La Noble Pie</h3>
                 <p class="footer-links">
                     <a href="index.html">Home</a>
+                    ·
+                    <a href="about.html">About</a>
                     ·
                     <a href="menu.html">Menu</a>
                     ·
@@ -169,8 +178,7 @@
             <div class="col-lg-4 col-md-12 footer-center">
                 <div>
                     <i class="fa fa-map-marker"></i>
-                    <p><a href="https://www.google.com/maps/place/8+Rue+de+la+Pelisserie,+82140+Saint-Antonin-Noble-Val/@44.1522695,1.7545256,17z/data=!3m1!4b1!4m5!3m4!1s0x12ac4bfc4ec18129:0x8c07dfa47458508d!8m2!3d44.1522695!4d1.7567143"
-                            target="_blank">8
+                    <p><a href="#" target="_blank">8
                             Rue de la Pelisserie, 82140 Saint-Antonin-Noble-Val, France</a></p>
                 </div>
 
@@ -216,6 +224,18 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#menu-link").click(function () {
+                $("#menuDropdown").slideToggle(300);
+
+
+
+            });
+
+        });
     </script>
 </body>
 
