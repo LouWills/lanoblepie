@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <link href="https://fonts.googleapis.com/css?family=Montez|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/hover-min.css">
     <script src="https://kit.fontawesome.com/6b5936d46d.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>La Noble Pie | Home</title>
@@ -20,7 +21,6 @@
 
 <body>
     <!-- Navigation bar-->
-
     <nav class="navbar navbar-dark navbar-expand-sm">
         <a href="/home" class="navbar-brand">
             <h2 class="page-heading">La Noble Pie</h2>
@@ -33,90 +33,169 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto nav-list-1">
                 <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="our-story.html">Our story</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#" id="menu-link">Menu</a>
+                </li>
                 <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/french"><img
-                            src="assets/images/fr.png" class="mobile-lang-img"></a></li>
+
             </ul>
         </div>
-        <div class="d-none d-md-block">
 
-            <a href="/uk" class="" data-toggle="modal" data-target="#exampleModal"><img class="lang-img"
-                    src="assets/images/uk.png" alt="Union Jack Flag"></a>
-        </div>
     </nav>
 
     <!-- /.Navigation bar-->
+
+    <!--Menu nav box-->
+    <div class="container-fluid menu-box-container" id="menuDropdown">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="menu-box-header">Menu</h1>
+                <hr class="block-divider block-divider--white menu-box-divider">
+            </div>
+
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <h2 class="menu-box-header">Curry night</h2>
+                <hr class="block-divider block-divider--white menu-box-divider">
+                <p class="menu-box-text">Every evening, Monday - Thursday we serve a selection of curries.
+                    The menu changes on a weekly basis so be sure to follow us on social media to get weekly menu
+                    updates.
+
+                </p>
+
+            </div>
+            <div class="col-md-3">
+                <h2 class="menu-box-header">Saturday all day breakfast</h2>
+                <hr class="block-divider block-divider--white menu-box-divider">
+                <p class="menu-box-text">Our breakfast menu is served all day on Saturday's.</p>
+                <br>
+                <h2 class="menu-box-header">Sunday Market</h2>
+                <hr class="block-divider block-divider--white menu-box-divider">
+                <p class="menu-box-text">On Sunday's our menu changes.<br>We serve a selection of traditional pies. Our
+                    sunday menu can be found here.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <a href="menu.html" class="btn btn-lg btn--cta menu-btn" role="button" aria-pressed="true">Browse
+                    full
+                    Menu</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--/.Menu nav box-->
 
     <!--Landing content-->
     <div class="container-fluid landing-container">
         <div class="row landing-section">
             <div class="col-12">
+                <img src="assets/images/french-border-style.png" alt="Border style"
+                    class="french-border d-none d-md-block">
                 <section class="callout text-center">
                     <img src="assets/images/noblepie.jpg" alt="La Noble Pie Logo" class="logo-img">
-                    <h1 class="jumbotron-header d-none d-md-block">La Noble Pie | St Antonin Noble-Val</h1>
+                    <h1 class="jumbotron-header d-none d-md-block">La Noble Pie</h1>
+                    <h2 class="jumbotron-subheader d-none d-md-block">St Antonin Noble-Val</h2>
                     <hr class="block-divider block-divider--black">
-                    <a href="contact.html" class="btn btn-lg btn--cta menu-btn" role="button" aria-pressed="true">Browse
+                    <a href="menu.html" class="btn btn-lg btn--cta menu-btn" role="button" aria-pressed="true">Browse
                         our
                         Menu</a>
+                </section>
             </div>
-            </section>
+
         </div>
 
     </div>
     </div>
     <!--/.Landing content-->
 
-    <!--About Section-->
-    <div class="container-fluid about-container">
-        <div class="row about-section">
+
+    <!-- Info Section-->
+    <div class="container-fluid where-container">
+        <div class="row where-section">
             <div class="col-12">
-                <h2 class="about-header text-center">About us</h2>
+                <h2 class="about-header text-center">Information</h2>
                 <hr class="block-divider block-divider--white">
             </div>
-            <div class="row about-content">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
+            <div class="row where-content justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <h3 class="info-header">The town</h3>
                     <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam blanditiis et
                         quidem
                         hic? Laboriosam, quae, error ratione quam id sed, ex dicta est tenetur rerum maxime? Neque
                         soluta natus
                         eligendi. </p>
                 </div>
-                <div class="col-lg-5">
-                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam blanditiis et
-                        quidem
-                        hic? Laboriosam, quae, error ratione quam id sed, ex dicta est tenetur rerum maxime? Neque
-                        soluta natus
-                        eligendi. </p>
+                <div class="col-md-6 col-lg-5">
+                    <h3 class="info-header">Address</h3>
+                    <p class="about-text"><b>La Noble Pie</b><br>8
+                        Rue de la Pelisserie<br>Saint-Antonin-Noble-Val<br>82140<br>France</p>
+                    <h3 class="info-header">Hours</h3>
+                    <p class="about-text">
+                        <b>Monday - Thursday:</b> 10:00 - 15:00, 18:00 - 21:00<br>
+                        <b>Friday:</b> Closed<br>
+                        <b>Saturday:</b> 10:00 - 15:00<br>
+                        <b>Sunday:</b> 09:00 - 13:00<br>
+
+                    </p>
+                    <button type="submit" class="btn-find btn-lg btn--cta menu-btn submit-btn d-none d-lg-block"
+                        data-toggle="modal" data-target="#exampleModal">Find us</button>
+
                 </div>
             </div>
         </div>
     </div>
-    <!--/.About Section-->
+    <!--/.Info section-->
 
-    <!-- Where we are section-->
-    <div class="container-fluid where-container">
-        <section class="where-section">
-            <h2 class="where-header text-center">Where we are</h2>
-            <hr class="block-divider block-divider--black">
-            <div class="row where-content">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <!--Image from https://www.tripadvisor.co.za/LocationPhotoDirectLink-g1198562-i268831039-Saint_Antonin_Noble_Val_Tarn_et_Garonne_Occitanie.html-->
-                    <img src="assets/images/st-antonin.jpg" alt="St Antonin Noble-Val" class="stanto-img">
-                    <p class="muted">St Antonin Noble-Val</p>
+    <!--Testimonal Slider-->
+
+    <div class="container-fluid testimonial-container">
+        <div class="row">
+            <div class="col-12">
+
+                <!--Slideshow-->
+
+                <div class="slideshow-container">
+
+                    <!-- Full-width slides/quotes -->
+                    <div class="mySlides">
+                        <q>I love you the more in that I believe you had liked me for my own sake and for nothing
+                            else</q>
+                        <p class="author">- John Keats</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+                        <p class="author">- Ernest Hemingway</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+                        <p class="author">- Thomas A. Edison</p>
+                    </div>
+
+                    <!-- Next/prev buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <div class="col-lg-5">
-                    <p class="where-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, assumenda
-                        dolor? Cupiditate tempore sapiente ex voluptatibus dignissimos rem nam eos perspiciatis pariatur
-                        veniam eum, libero nulla nobis ipsa laudantium consectetur.</p>
+
+                <!-- Dots/bullets/indicators -->
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
+
+                <!--/.Slideshow-->
+
             </div>
-        </section>
-
+        </div>
     </div>
-    <!--/.Where we are section-->
+
+    <!--/.Testimonial Slider-->
 
     <!--Footer-->
     <footer class="container-fluid noble-footer">
@@ -125,6 +204,8 @@
                 <h3 class="page-heading footer-company-name">La Noble Pie</h3>
                 <p class="footer-links">
                     <a href="index.html">Home</a>
+                    ·
+                    <a href="our-story.html">Our story</a>
                     ·
                     <a href="menu.html">Menu</a>
                     ·
@@ -154,32 +235,51 @@
     <!--/.Footer-->
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade modal-map" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Language</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Find us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="modal-footer lang-options">
-                    <button type="button" class="btn btn-secondary lang-btn"><a href="index.html"><img
-                                src="assets/images/uk.png" class="modal-language-img">English</a></button>
-                    <button type="button" class="btn btn-secondary lang-btn"><a href="index.html"><img
-                                src="assets/images/fr.png" class="modal-language-img">Français</a></button>
+                <div class="modal-body">
+                    <iframe width="600" height="450" frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKYHBTvxLrBIRdUbXz9iMZgg&key=AIzaSyBqlRROeptOBgldJgO6stETByKUEPiEKnA"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
+    <!--./Modal-->
 
+    <script src="assets/js/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#menu-link").click(function () {
+                $("#menuDropdown").slideToggle(400);
+
+
+
+            });
+
+        });
+    </script>
 </body>
 
 </html>
