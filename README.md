@@ -6,6 +6,9 @@
 
 Find a PDF of the mockups [here](laNoblePie-mockups.pdf)
 
+Mockups changed to use current business logo and colours instead of the proposed rebrand colours. ABout section moved to "Our Story" and key information and testimonials added to index. 
+Menu page layout changed to more user friendly design.
+
 ## Notes
 
 - Framework complete.
