@@ -613,12 +613,6 @@ q {
   margin: 0;
 }
 
-.fixed-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-
 .footer-items .footer-left,
 .footer-items .footer-center,
 .footer-items .footer-right {
