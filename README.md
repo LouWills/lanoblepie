@@ -2,6 +2,10 @@
 
 ![Image of La Noble Pie logo](assets/images/noblepie.jpg)
 
+## Mockups
+
+Find a PDF of the mockups [here](laNoblePie-mockups.pdf)
+
 ## Notes
 
 - Framework complete.
@@ -11,6 +15,9 @@
     - menu items and prices
     - testimonials
     - phone number
+
+- All pages and components are responsive
+- All links work and send the user to the correct information
 
 ## Issues
 
@@ -22,8 +29,11 @@
 - Submit button on contact page loads the submission modal even if the required form fields are left empty
 - In mobile view, images in the carousel on the "Our Story" page get stretched. Not sure of a work around.
 
-## Testing
+## Next Steps
 
-- All pages and components are responsive
-- All links work and send the user to the correct information
+- Submit to tutor and get feedback
+- Present to client and get feedback
+
+
+
 
